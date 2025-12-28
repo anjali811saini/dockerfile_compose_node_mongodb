@@ -87,3 +87,10 @@ app.post("/addUser", (req, res) => {
     .then(() => res.send("User added"))
     .catch(err => res.status(500).send(err.message));
 });
+
+
+
+
+
+
+
